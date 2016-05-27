@@ -1,0 +1,106 @@
+body {
+	background: #eee;
+	font: 76%/1.5 Arial, Verdana, Sans-Serif;
+}
+
+a {
+	text-decoration: none;
+	color: #0065BF;
+}
+
+img {
+	border: 0;
+}
+
+p, table {
+	margin: 0 0 1.5em;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+}
+input, select, textarea {
+	font: inherit;
+}
+
+form#linkform label, form#linkform span.label {
+	clear: both;
+	display: block;
+	float: left;
+	width: 150px;
+}
+form#linkform input, form#linkform select, form#linkform textarea, form#linkform span.button {
+	display: block;
+	float: left;
+	width: 250px;
+	margin-bottom: 5px;
+}
+form#linkform textarea {
+	height: 80px;
+}
+form#linkform input.button {
+	clear: both;
+	margin: 10px 0 0 150px;
+	width: 80px;
+}
+
+#container {
+	background: #fff;
+	width: 80%;
+	padding: 25px;
+	margin: 25px auto;
+}
+	#navigation {
+		margin: 0 0 2em 0;
+		list-style: none;
+		text-align: center;
+	}
+		#navigation li {
+			display: inline;
+			padding: 0 10px;
+		}
+	#footer {
+		color: #666;
+		font-size: .9em;
+		text-align: center;
+		margin: 25px 0 0 0;
+	}
+	
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+		table tr.linkeven {
+			background-color: #efefef;
+		}
+		table tr.linkodd {
+			background-color: #fff;
+		}
+		table tr.pending {
+			background-color: #CFE1EF;
+			font-weight: bold;
+		}
+			table td, table th {
+				padding: 3px;
+				border: 1px solid #ccc;
+			}
+		
+		table img {
+		vertical-align: middle;
+		}
+
+.updatemeta {
+	margin-top: -1em;
+	font-size: .9em;
+	color: #666;
+}
+.red { color: #f00; }
+
+.center { text-align: center; }
+.right { text-align: right; }
